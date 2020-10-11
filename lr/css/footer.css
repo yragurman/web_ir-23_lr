@@ -2,7 +2,7 @@
     padding-top: 133px;
 }
 hr{
-    width: 1600px;
+    width: initial;
     height: 2px;
     margin:0 auto;
     background: #9C69E2;
@@ -67,8 +67,9 @@ hr{
     color: #212353;
 }
 .footer__right__message{
-    padding-top: 90px;
-    padding-left: 150px;
+    margin-top: 90px;
+    margin-left: 150px;
+    background-color: #fff;
 }
 .footer__button__arrow_2{
     padding-left: 20px;
