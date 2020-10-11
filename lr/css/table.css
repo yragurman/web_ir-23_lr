@@ -5,7 +5,7 @@
 }
 .table_upper_menu__1{
     display: flex;
-    background-image: url(/image/background_1.svg);
+    background-image: url(/web_ir-23_lr/lr/image/background_1.svg);
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -42,7 +42,7 @@
 .table_upper_menu__2{
     display: flex;
     padding-right: 50px;
-    background-image: url(/image/background_2.svg);
+    background-image: url(/web_ir-23_lr/lr/image/background_2.svg);
     background-repeat: no-repeat;
     background-position: 160px 34px;
     padding-bottom: 30px;
@@ -79,7 +79,7 @@
 .table_down_menu__2__1{
     padding-top: 50px;
     display: flex;
-    background-image: url(/image/background_3.svg);
+    background-image: url(/web_ir-23_lr/lr/image/background_3.svg);
     background-repeat: no-repeat;
     background-position: 90px 70px;
 }
@@ -116,7 +116,7 @@
 .table_down_menu__2__2{
     display: flex;
     padding-bottom: 40px;
-    background-image: url(/image/background_4.svg);
+    background-image: url(/web_ir-23_lr/lr/image/background_4.svg);
     background-repeat: no-repeat;
     background-position: 145px 10px;
 }
