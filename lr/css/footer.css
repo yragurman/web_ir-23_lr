@@ -40,6 +40,9 @@ hr{
 .footer__button__1{
     margin-top: 121px;
     margin-left: 123px;
+    padding-right: 37px;
+    padding-left: 37px;
+    white-space: nowrap;
     width: 170px;
     height: 60px;
     background: #F063B8;

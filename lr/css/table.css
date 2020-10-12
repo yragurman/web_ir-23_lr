@@ -75,7 +75,9 @@
     color: #212353;
 }
 /*table-down*/
-
+.table_down_menu__2{
+    display: flex;
+}
 .table_down_menu__2__1{
     padding-top: 50px;
     display: flex;
@@ -114,8 +116,9 @@
 }
 
 .table_down_menu__2__2{
+    margin-top:50px;
+    height: 400px;
     display: flex;
-    padding-bottom: 40px;
     background-image: url(/web_ir-23_lr/lr/image/background_4.svg);
     background-repeat: no-repeat;
     background-position: 145px 10px;

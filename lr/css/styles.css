@@ -6,3 +6,66 @@
 @import "features.css";
 @import "table.css";
 @import "footer.css";
+
+
+@media screen and (max-width:800px){
+.header{
+    background-image: none;
+    width:500px;
+}
+.Logo{
+    padding-right: 5px;
+}
+.button__request{
+    margin-left: 0px;
+}
+.header__nav{
+    align-items: center;
+    flex-direction: column;
+}
+.header__hero__title{
+    width:500px;
+    text-align: center;
+}
+.header__hero__txt{
+    width:400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.info{
+    width:500px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.section{
+    width: 500px;
+}
+.section__section2{
+    width:400px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.section__section2__title{
+    width: auto;
+    text-align: center;
+    padding-right: 0px;
+}
+.section__section2__txt{
+    width: auto;
+    padding-right: 0px;
+    text-align: center;
+}
+.header__hero__learnmore{
+    margin-left: 50px;
+}
+.features__txt{
+    width: auto;
+}
+.table{
+    flex-direction: column;
+}
+}
+@media screen and (max-width:1000px){
+
+}
