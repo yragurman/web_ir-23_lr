@@ -1,37 +1,45 @@
-
 /*table-upper*/
-.table_upper_menu{
+
+.table_upper_menu {
     display: flex;
 }
-.table_upper_menu__1{
+
+.table_upper_menu__1 {
     display: flex;
     background-image: url(/web_ir-23_lr/lr/image/background_1.svg);
     background-repeat: no-repeat;
     background-position: right top;
 }
-.table_upper_menu__1_image{
+
+.table_upper_menu__1_image {
     padding-top: 73px;
 }
-.table_upper_menu__1__content{
+
+.table_upper_menu__1__content {
     padding-top: 50px;
     padding-left: 29.3px;
     padding-right: 50px;
+    display: flex;
+    flex-direction: column;
 }
-.table_upper_menu__1_title{
+
+.table_upper_menu__1_title {
     font-weight: normal;
     font-size: 24px;
     line-height: 130%;
 }
-.table_upper_menu__1_txt{
+
+.table_upper_menu__1_txt {
     width: 220px;
     font-size: 16px;
     line-height: 160%;
 }
-.table_upper_menu__1__content__learnmore{
+
+.table_upper_menu__1__content__learnmore {
     display: flex;
 }
 
-.table_upper_menu__1__content__learnmore__txt{
+.table_upper_menu__1__content__learnmore__txt {
     padding-right: 20px;
     font-weight: 900;
     font-size: 16px;
@@ -39,7 +47,7 @@
     color: #212353;
 }
 
-.table_upper_menu__2{
+.table_upper_menu__2 {
     display: flex;
     padding-right: 50px;
     background-image: url(/web_ir-23_lr/lr/image/background_2.svg);
@@ -47,67 +55,85 @@
     background-position: 160px 34px;
     padding-bottom: 30px;
 }
-.table_upper_menu__2__content{
+
+.table_upper_menu__2__content {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
-.table_upper_menu__2_image{
+
+.table_upper_menu__2_image {
     padding-left: 93px;
 }
-.table_upper_menu__2_title{
+
+.table_upper_menu__2_title {
     font-weight: normal;
     font-size: 24px;
     line-height: 130%;
 }
-.table_upper_menu__2_txt{
+
+.table_upper_menu__2_txt {
     width: 220px;
     font-size: 16px;
     line-height: 160%;
 }
-.table_upper_menu__2__content__learnmore{
+
+.table_upper_menu__2__content__learnmore {
     display: flex;
 }
 
-.table_upper_menu__2__content__learnmore__txt{
+.table_upper_menu__2__content__learnmore__txt {
     padding-right: 20px;
     font-weight: 900;
     font-size: 16px;
     line-height: 160%;
     color: #212353;
 }
+
+
 /*table-down*/
-.table_down_menu__2{
+
+.table_down_menu__2 {
     display: flex;
 }
-.table_down_menu__2__1{
+
+.table_down_menu__2__1 {
     padding-top: 50px;
     display: flex;
     background-image: url(/web_ir-23_lr/lr/image/background_3.svg);
     background-repeat: no-repeat;
     background-position: 90px 70px;
 }
-.table_down_menu__2__1_image{
+
+.table_down_menu__2__1_image {
     padding-top: 73px;
 }
-.table_down_menu__2__1__content{
+
+.table_down_menu__2__1__content {
     padding-top: 50px;
     padding-left: 29.3px;
     padding-right: 50px;
+    display: flex;
+    flex-direction: column;
 }
-.table_down_menu__2__1_title{
+
+.table_down_menu__2__1_title {
     font-weight: normal;
     font-size: 24px;
     line-height: 130%;
 }
-.table_down_menu__2__1_txt{
+
+.table_down_menu__2__1_txt {
     width: 220px;
     font-size: 16px;
     line-height: 160%;
 }
-.table_down_menu__2__1__content__learnmore{
+
+.table_down_menu__2__1__content__learnmore {
     display: flex;
 }
 
-.table_down_menu__2__1__content__learnmore__txt{
+.table_down_menu__2__1__content__learnmore__txt {
     padding-right: 20px;
     font-weight: 900;
     font-size: 16px;
@@ -115,37 +141,44 @@
     color: #212353;
 }
 
-.table_down_menu__2__2{
-    margin-top:50px;
+.table_down_menu__2__2 {
+    margin-top: 50px;
     height: 400px;
     display: flex;
     background-image: url(/web_ir-23_lr/lr/image/background_4.svg);
     background-repeat: no-repeat;
     background-position: 145px 10px;
 }
-.table_down_menu__2__2_content{
+
+.table_down_menu__2__2_content {
     padding-top: 50px;
     padding-right: 100px;
+    display: flex;
+    flex-direction: column;
 }
-.table_down_menu__2__2_image{
+
+.table_down_menu__2__2_image {
     padding-left: 93px;
     padding-top: 36px;
 }
-.table_down_menu__2__2_title{
+
+.table_down_menu__2__2_title {
     font-weight: normal;
     font-size: 24px;
     line-height: 130%;
 }
-.table_down_menu__2__2_txt{
+
+.table_down_menu__2__2_txt {
     width: 220px;
     font-size: 16px;
     line-height: 160%;
 }
-.table_down_menu__2__2__content__learnmore{
+
+.table_down_menu__2__2__content__learnmore {
     display: flex;
 }
 
-.table_down_menu__2__2__content__learnmore__txt{
+.table_down_menu__2__2__content__learnmore__txt {
     padding-right: 20px;
     font-weight: 900;
     font-size: 16px;
