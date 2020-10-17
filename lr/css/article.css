@@ -1,0 +1,132 @@
+.up__menu {
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 3.125rem;
+}
+
+.down__menu {
+    display: flex;
+    align-content: space-between;
+}
+
+.img1 {
+    width: 14.5rem;
+}
+
+.img2 {
+    width: 14.5rem;
+}
+
+.img3 {
+    width: 14.5rem;
+}
+
+.img4 {
+    width: 14.5rem;
+}
+
+.up__menu__left {
+    display: flex;
+    width: 33.25rem;
+    background-color: rgba(104, 201, 186, 0.1);
+    border-radius: 3.125rem;
+    line-height: 160%;
+}
+
+.up__menu__right {
+    display: flex;
+    margin-left: 2.688rem;
+    width: 34.125rem;
+    background-color: rgba(156, 105, 226, 0.1);
+    border-radius: 3.125rem;
+    line-height: 160%;
+}
+
+.down__menu__left {
+    display: flex;
+    width: 45%;
+    background-color: rgba(240, 99, 184, 0.1);
+    border-radius: 3.125rem;
+}
+
+.down__menu__right {
+    display: flex;
+    margin-left: 10%;
+    width: 45%;
+    background-color: rgba(45, 156, 219, 0.1);
+    border-radius: 3.125rem;
+}
+
+.content__1 {
+    margin-right: 3.125rem;
+    margin-left: 1.875rem;
+}
+
+.content__2 {
+    margin-left: 1.875rem;
+}
+
+.content__3 {
+    margin-right: 3.125rem;
+    margin-left: 1.875rem;
+}
+
+.content__4 {
+    margin-left: 1.875rem;
+}
+
+.content__1__button {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+.content__2__button {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+.content__3__button {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+.content__4__button {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+.content__1__button__img {
+    margin-left: 10%;
+}
+
+.content__2__button__img {
+    margin-left: 10%;
+}
+
+.content__3__button__img {
+    margin-left: 10%;
+}
+
+.content__4__button__img {
+    margin-left: 10%;
+}
+
+.content__1__button__learnmore {
+    white-space: nowrap;
+}
+
+.content__2__button__learnmore {
+    white-space: nowrap;
+}
+
+.content__3__button__learnmore {
+    white-space: nowrap;
+}
+
+.content__4__button__learnmore {
+    white-space: nowrap;
+}
