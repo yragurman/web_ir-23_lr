@@ -13,8 +13,9 @@ section {
 }
 
 .section__section2__image {
-    width: 29.813rem;
+    width: 100%;
     height: 31.5rem;
+    animation: floating 3s linear infinite;
 }
 
 .section__section2__title {

@@ -1,4 +1,9 @@
+/* normalize */
+
 @import "normalize.min.css";
+
+/* general */
+
 @import "global.css";
 @import "header.css";
 @import "section2.css";
@@ -6,5 +11,8 @@
 @import "article.css";
 @import "footer.css";
 @import "media.css";
-@import "hamburger.css";
 @import "animation.css";
+
+/* connected library */
+
+@import "animate.css";

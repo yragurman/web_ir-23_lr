@@ -12,7 +12,9 @@
         background-image: none;
     }
     .Logo {
+        padding-top: 10%;
         padding-right: unset;
+        padding-bottom: 10%;
     }
     .button__request {
         margin-left: 0px;
@@ -88,6 +90,7 @@
     }
     .footer__txt {
         order: 3;
+        width: 100%;
     }
     .footer__button__1 {
         width: auto;

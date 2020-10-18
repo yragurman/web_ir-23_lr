@@ -1,4 +1,4 @@
-header {
+.header {
     max-width: 78rem;
     margin: 0 auto;
     padding-top: 3.125rem;
@@ -33,9 +33,9 @@ li {
 }
 
 .button__request {
+    margin-left: 20%;
     height: 3.75rem;
     width: 13.125rem;
-    margin-left: 5rem;
     display: flex;
     white-space: nowrap;
     align-items: center;
@@ -43,6 +43,34 @@ li {
     background: #FFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 3.125rem;
+}
+
+.button__request:hover {
+    background-color: rgba(243, 142, 250, 1);
+    color: #FFF;
+    transition: 1s;
+}
+
+.button__request:not(:hover) {
+    transition: 1s;
+}
+
+.header__hero__learnmore:hover {
+    background-color: rgba(99, 242, 190, 1);
+    color: black;
+    transition: 1s;
+}
+
+.header__hero__learnmore:not(:hover) {
+    transition: 1s;
+}
+
+.button__arrow {
+    width: 1.25rem;
+}
+
+.header__nav__txt:hover li {
+    animation: jump 0.2s 1 paused;
 }
 
 
@@ -82,4 +110,69 @@ li {
     font-size: 1.125rem;
     line-height: 160%;
     color: #FFFFFF;
+}
+
+.header__menu {
+    align-self: start;
+    display: none;
+    cursor: pointer;
+}
+
+.burger__menu {
+    width: 32px;
+}
+
+.header__nav__txt ul {
+    display: flex;
+}
+
+.header__nav-item {
+    font-size: var(--font-size-sm);
+}
+
+.header__nav-item:not(:last-child) {
+    margin-right: 60px;
+}
+
+
+/* burger menu */
+
+@media screen and (max-width: 1000px) {
+    .header {
+        padding-top: 0px;
+    }
+    .header__menu {
+        z-index: 2;
+    }
+    .Logo {
+        z-index: -1;
+    }
+    .button__request {
+        z-index: -1;
+    }
+    .header__menu {
+        display: block;
+    }
+    .header__nav__txt {
+        background: rgba(252, 202, 252, 1);
+        position: fixed;
+        height: 100%;
+        left: 0;
+        right: 0;
+        margin-top: 0;
+        clip-path: circle(0 at top left);
+        transition: clip-path 0.9s ease-in;
+        z-index: 1
+    }
+    .header__nav__txt.open {
+        clip-path: circle(1000px at top);
+    }
+    .header__nav__txt ul {
+        flex-direction: column;
+    }
+    .header__nav__txt .header__nav-item {
+        margin-right: 0;
+        padding-top: 10vh;
+        flex: 1;
+    }
 }

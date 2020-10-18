@@ -6,28 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first lab </title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="/web_ir-23_lr/lr/animation.js"></script>
 </head>
 
 <body>
     <sector class="sector">
         <header class="header">
             <nav class="header__nav">
+                <div class="header__menu" onclick="toggleMenu()">
+                    <img class="burger__menu" src="image/menu.svg" alt="Menu icon">
+                </div>
                 <img class="Logo" src="/web_ir-23_lr/lr2/image/Logo.svg" alt="Logo">
-                <ul class="header__nav__txt">
-                    <li><a class="Active" href="#">About</a></li>
-                    <li><a class="menu__item" href="#">Help</a></li>
-                    <li><a class="menu__item" href="#">Features</a></li>
-                    <li><a class="menu__item" href="#">Signup</a></li>
-                </ul>
+                <div id="nav-links" class="header__nav__txt">
+                    <ul>
+                        <li class="header__nav-item"><a class="Active" href="#">About</a></li>
+                        <li class="header__nav-item"><a class="menu__item" href="#">Help</a></li>
+                        <li class="header__nav-item"><a class="menu__item" href="#">Features</a></li>
+                        <li class="header__nav-item"><a class="menu__item" href="#">Signup</a></li>
+                    </ul>
+                </div>
                 <button class="button__request">
                     <p class="button__request__requestdemo">Request Demo</p>
                     <img class="button__arrow" src="/web_ir-23_lr/lr2/image/arrow.svg" alt="->">
                 </button>
             </nav>
             <div class="header__hero">
-                <h1 class="header__hero__title">Save your data storage here.</h1>
-                <p class="header__hero__txt">Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.</p>
+                <h1 class="header__hero__title wow fadeInUp" boxClass>Save your data storage here.</h1>
+                <p class="header__hero__txt wow fadeInUp">Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.</p>
                 <button class="header__hero__learnmore">
                     <p class="header__hero__learn__more">Learn more</p>
                 </button>
@@ -37,21 +41,21 @@
             <info class="info">
                 <img class="section__section2__image" src="/web_ir-23_lr/lr2/image/image2.svg" alt="Picture">
                 <div class="section__section2">
-                    <h1 class="section__section2__title">We are a high-level data storage bank</h1>
-                    <p class="section__section2__txt">The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password
+                    <h1 class="section__section2__title wow fadeInRight">We are a high-level data storage bank</h1>
+                    <p class="section__section2__txt wow fadeInRight">The place to store various data that you can access at any time through the internet and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password
                         that you created when you registered in this Data Warehouse. </p>
                 </div>
             </info>
             <features class="features">
-                <h1 class="features__title">Features</h1>
-                <p class="features__txt">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
+                <h1 class="features__title wow flipInX">Features</h1>
+                <p class="features__txt wow bounceInLeft">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
             </features>
             <article class="up__menu">
                 <div class="up__menu__left">
                     <img class="img1" src="/web_ir-23_lr/lr2/image/image3.svg" alt="1">
                     <div class="content__1">
-                        <h1 class="content__1__title">Search Data</h1>
-                        <p class="content__1__txt">Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
+                        <h1 class="content__1__title wow zoomIn">Search Data</h1>
+                        <p class="content__1__txt wow zoomIn">Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
                         <button class="content__1__button">
                             <p class="content__1__button__learnmore">Learn more</p>
                             <img class="content__1__button__img" src="/web_ir-23_lr/lr2/image/arrow.svg" alt="->">
@@ -61,8 +65,8 @@
                 <div class="up__menu__right">
                     <img class="img2" src="/web_ir-23_lr/lr2/image/image4.svg" alt="2">
                     <div class="content__2">
-                        <h1 class="content__2__title">24 Hours Access</h1>
-                        <p class="content__2__txt">Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent.</p>
+                        <h1 class="content__2__title wow zoomIn">24 Hours Access</h1>
+                        <p class="content__2__txt wow zoomIn">Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent.</p>
                         <button class="content__2__button">
                             <p class="content__2__button__learnmore">Learn more</p>
                             <img class="content__2__button__img" src="/web_ir-23_lr/lr2/image/arrow.svg" alt="->">
@@ -74,8 +78,8 @@
                 <div class="down__menu__left">
                     <img class="img3" src="/web_ir-23_lr/lr2/image/image5.svg" alt="3">
                     <div class="content__3">
-                        <h1 class="content__3__title">Print Out</h1>
-                        <p class="content__3__txt">Print out service gives you convenience if someday you need print data, just edit it all and just print it.</p>
+                        <h1 class="content__3__title wow zoomIn">Print Out</h1>
+                        <p class="content__3__txt wow zoomIn">Print out service gives you convenience if someday you need print data, just edit it all and just print it.</p>
                         <button class="content__3__button">
                             <p class="content__3__button__learnmore">Learn more</p>
                             <img class="content__3__button__img" src="/web_ir-23_lr/lr2/image/arrow.svg" alt="->">
@@ -85,8 +89,8 @@
                 <div class="down__menu__right">
                     <img class="img4" src="/web_ir-23_lr/lr2/image/image6.svg" alt="4">
                     <div class="content__4">
-                        <h1 class="content__4__title">Security Code</h1>
-                        <p class="content__4__txt">Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file.</p>
+                        <h1 class="content__4__title wow zoomIn">Security Code</h1>
+                        <p class="content__4__txt wow zoomIn">Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file.</p>
                         <button class="content__4__button">
                             <p class="content__4__button__learnmore">Learn more</p>
                             <img class="content__4__button__img" src="/web_ir-23_lr/lr2/image/arrow.svg" alt="->">
@@ -116,4 +120,9 @@
             </footer>
         </section>
     </sector>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>

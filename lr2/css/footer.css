@@ -65,7 +65,6 @@ hr {
 
 .footer__down__button {
     height: 3.75rem;
-    width: 3.75rem;
     background: none;
 }
 
@@ -77,4 +76,24 @@ hr {
 .footer__right__message__image {
     height: 3.75rem;
     width: 3.75rem;
+}
+
+.footer__up__button:hover {
+    background-color: rgba(243, 142, 250, 1);
+    color: #fff;
+    transition: 1s;
+}
+
+.footer__up__button:not(:hover) {
+    transition: 1s;
+}
+
+.footer__button__1:hover {
+    background-color: rgba(99, 242, 190, 1);
+    color: black;
+    transition: 1s;
+}
+
+.footer__button__1:not(:hover) {
+    transition: 1s;
 }
