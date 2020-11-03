@@ -1,0 +1,16 @@
+.Add_Film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.Add_Film__Description {
+    display: flex;
+    height: 200px;
+    size: 100%;
+}
+
+.Add__Film__Button__Submit {
+    margin-top: 2rem;
+}
